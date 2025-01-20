@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A-Frame Dragon Wing Flapping</title>
+    <script src="https://aframe.io/releases/1.4.2/aframe.min.js"></script>
+</head>
+<body>
+    <a-scene>
+        <!-- พื้นหลัง -->
+        <a-sky src="forest360.jpg"></a-sky>
+
+        <!-- ตัวมังกร -->
+        <a-entity position="0 0 -5" scale="1.5 1.5 1.5">
+            <a-entity gltf-model="Dragon.glb"></a-entity>
+        </a-entity>
+
+        <!-- กล้อง -->
+        <a-camera position="0 1.6 0"></a-camera>
+    </a-scene>
+</body>
+</html>
